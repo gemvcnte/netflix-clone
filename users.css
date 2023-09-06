@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+html,body {
+    height: 90%;    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #141414;
+    -webkit-font-smoothing: antialiased
+}
+
+.icon {
+    width: 10vw;
+    border-radius:6px;
+    margin: .25rem;
+}
+
+
+.centered {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.centered {
+    animation: animateProfileGate .45s forwards;
+}
+
+.list-profiles h1{
+    color: white;
+    font-size: 3.5vw;
+    margin: 1rem 0 ;
+}
+
+.list-profiles {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.avatar-profile {
+    position: relative;
+}
+
+.avatar-profile:hover .icon {
+    border: #fff 2px solid;
+}
+
+.avatar-profile:hover .name {
+    color: #fff;
+}
+
+.choose-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.choose-profile .name {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.button-container .manage-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manage-profile button {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    margin: 2em 0 1em;
+    padding: 0.5em 1.5em;
+}
+
+.manage-profile button:hover {
+    color: #fff;
+    outline: 2px solid #fff;
+}

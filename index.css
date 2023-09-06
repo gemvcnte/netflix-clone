@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    
+}
+
+body {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    background-image: url(ticket-2974645_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+ 
+   
+}
+
+header {
+    padding: 1rem;
+    font-family: 'Poppins';
+}
+
+.bg-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.logo {
+    font-family: 'Phudu', cursive;
+   color: white;
+}
+
+.desc-cont {
+    background-color: rgba(36, 36, 36, 0.744);
+    padding: 3rem;
+    width: 50rem;
+}
+
+.desc-cont p {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+button {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 1.30rem;
+    font-weight: bolder;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 20px 50px;
+    margin-top: 4rem;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+button:hover {
+    background-color: rgb(13, 12, 36);
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+}
+header .logo  {
+    padding: 1rem 1.5rem;
+}
+
+.navigation-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display: flex;
+    
+}
+
+.navigation .nav-list {
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    transition: all 0.3s ease-in-out;
+} 
+
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+
+
+.nav-list a:hover {
+    color: #D5CEA3;
+}
